@@ -25,7 +25,7 @@ const Stairs = () => {
           <motion.div
             key={index}
             variants={StairAnimation}
-            initial="intitial"
+            initial="initial"
             animate="animate"
             exit="exit"
             transition={{
