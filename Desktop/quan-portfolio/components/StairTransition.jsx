@@ -3,7 +3,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
-//components
 import Stairs from "./Stairs";
 
 const StairTransition = () => {
