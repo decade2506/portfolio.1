@@ -14,7 +14,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, fugit! Culpa laudantium repellat odit cum, maxime corrupti.",
+    "Here are some informations about me",
   info: [
     {
       fieldname: "Name",
@@ -22,31 +22,31 @@ const about = {
     },
     {
       fieldname: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+84) 834 237 147",
     },
     {
       fieldname: "Experience",
       fieldValue: "0+ Years",
     },
-    {
-      fieldname: "Skype",
-      fieldValue: "Decade2506",
-    },
+    // {
+    //   fieldname: "Skype",
+    //   fieldValue: "Decade2506(not real)",
+    // },
     {
       fieldname: "Nationality",
-      fieldValue: "Martian",
+      fieldValue: "Vietnamese",
     },
-    {
-      fieldname: "Email",
-      fieldValue: "decade.2506@gmail.com",
-    },
-    {
-      fieldname: "Freelance",
-      fieldValue: "Non-Available",
-    },
+    // {
+    //   fieldname: "Freelance",
+    //   fieldValue: "NonAvailable",
+    // },
     {
       fieldname: "Lanugages",
       fieldValue: "Vietnamese, English",
+    },
+    {
+      fieldname: "Email",
+      fieldValue: "minhquan10.adv@gmail.com",
     },
   ],
 };
@@ -55,38 +55,38 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, fugit! Culpa laudantium repellat odit cum, maxime corrupti.",
+    "The non-existant experience",
   items: [
+    // {
+    //   company: "Tech Solution Inc.",
+    //   position: "Full Stack Developer",
+    //   duration: "2022 - Present",
+    // },
     {
-      company: "Tech Solution Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Web Design Studio.",
+      company: "Saturday solutions",
       position: "Front-End Developer intern",
-      duration: "Summer 2021",
+      duration: "Summer 2024",
     },
-    {
-      company: "E-commerce Startup.",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy.",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital agency.",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm.",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
-    },
+    // {
+    //   company: "E-commerce Startup.",
+    //   position: "Freelance Web Developer",
+    //   duration: "2020 - 2021",
+    // },
+    // {
+    //   company: "Tech Academy.",
+    //   position: "Teaching Assistant",
+    //   duration: "2019 - 2020",
+    // },
+    // {
+    //   company: "Digital agency.",
+    //   position: "UI/UX Designer",
+    //   duration: "2018 - 2019",
+    // },
+    // {
+    //   company: "Software Development Firm.",
+    //   position: "Junior Developer",
+    //   duration: "2017 - 2018",
+    // },
   ],
 };
 
@@ -94,45 +94,45 @@ const education = {
   icon: "/assets/resume/badge.svg",
   title: "My education",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, fugit! Culpa laudantium repellat odit cum, maxime corrupti.",
+    "I am currently studying at Hue University of Science and am glad to collaborate.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "HUSC high school for the gifted students",
+      degree: "High School Certificate of Merit",
+      duration: "2021-2024",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "Coursera",
+      degree: "Google Cybersecurity certificate",
+      duration: "2024",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020-2021",
+      institution: "Coursera",
+      degree: "google UX Design certificate",
+      duration: "2024",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified web Developer",
-      duration: "2019",
+      institution: "Hue University of Science",
+      degree: "1st year student",
+      duration: "2024-current",
     },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016-2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degreen in Computer Science",
-      duration: "2014-2016",
-    },
+    // {
+    //   institution: "Design School",
+    //   degree: "Diploma in Graphic Design",
+    //   duration: "2016-2018",
+    // },
+    // {
+    //   institution: "Community College",
+    //   degree: "Associate Degreen in Computer Science",
+    //   duration: "2014-2016",
+    // },
   ],
 };
 
 const skills = {
   title: "My skills",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, fugit! Culpa laudantium repellat odit cum, maxime corrupti.",
+    "The skills I knew, though I didn't master them all",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -187,7 +187,7 @@ const Resume = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 1.1, duration: 0.4, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
