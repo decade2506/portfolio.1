@@ -14,7 +14,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "I am currently studying at Hue University of Science and am glad to collaborate. Here is some information about me",
+    "Here are some informations about me",
   info: [
     {
       fieldname: "Name",
@@ -55,7 +55,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "The non existant experience",
+    "The non-existant experience",
   items: [
     // {
     //   company: "Tech Solution Inc.",
@@ -94,7 +94,7 @@ const education = {
   icon: "/assets/resume/badge.svg",
   title: "My education",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, fugit! Culpa laudantium repellat odit cum, maxime corrupti.",
+    "I am currently studying at Hue University of Science and am glad to collaborate.",
   items: [
     {
       institution: "HUSC high school for the gifted students",
@@ -132,7 +132,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, fugit! Culpa laudantium repellat odit cum, maxime corrupti.",
+    "The skills I knew, though I didn't master them all",
   skillList: [
     {
       icon: <FaHtml5 />,
