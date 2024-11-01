@@ -66,7 +66,7 @@ const Work = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transitio: { delay: 1.1, duration: 0.5, ease: "easIn" },
+        transition: { delay: 1.4, duration: 0.5, ease: "easeInOut" },
       }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0"
     >
