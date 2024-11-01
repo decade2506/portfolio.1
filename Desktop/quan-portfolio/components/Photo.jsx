@@ -10,7 +10,7 @@ const Photo = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          transition: { delay: 1.4, duration: 0.4, ease: "easeInOut" },
+          transition: { delay: 1.1, duration: 0.4, ease: "easeInOut" },
         }}
         className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
       >
@@ -28,7 +28,7 @@ const Photo = () => {
         className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
         fill="transparent"
         viewBox="0 0 506 506"
-        xmlns="htt[s://www.w3.org/2000/svg"
+        xmlns="https://www.w3.org/2000/svg"
       >
         <motion.circle
           cx="253"
