@@ -14,7 +14,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Some info about me if you want.",
+    "I am currently studying at Hue University of Science and am glad to collaborate. Here is some information about me",
   info: [
     {
       fieldname: "Name",
@@ -28,25 +28,25 @@ const about = {
       fieldname: "Experience",
       fieldValue: "0+ Years",
     },
-    {
-      fieldname: "Skype",
-      fieldValue: "Decade2506(not real)",
-    },
+    // {
+    //   fieldname: "Skype",
+    //   fieldValue: "Decade2506(not real)",
+    // },
     {
       fieldname: "Nationality",
       fieldValue: "Vietnamese",
     },
-    {
-      fieldname: "Email",
-      fieldValue: "minhquan10.adv@gmail.com",
-    },
-    {
-      fieldname: "Freelance",
-      fieldValue: "Available",
-    },
+    // {
+    //   fieldname: "Freelance",
+    //   fieldValue: "NonAvailable",
+    // },
     {
       fieldname: "Lanugages",
       fieldValue: "Vietnamese, English",
+    },
+    {
+      fieldname: "Email",
+      fieldValue: "minhquan10.adv@gmail.com",
     },
   ],
 };
@@ -113,7 +113,7 @@ const education = {
     },
     {
       institution: "Hue University of Science",
-      degree: "1st year fresh man",
+      degree: "1st year student",
       duration: "2024-current",
     },
     // {

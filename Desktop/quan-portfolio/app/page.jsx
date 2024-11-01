@@ -11,14 +11,14 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xt;pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-3xl">Front-end Developer</span>
+            <span className="text-3xl">Developer</span>
             <h1 className="h1">
               Hello I'm <br />
               <span className="text-accent">Minh Quan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I not really excel at programming in general as I'm quite new to
-              the field itself, but I'm glad to help you if you want
+              the field itself, but I'm glad to help
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
