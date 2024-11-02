@@ -1,12 +1,12 @@
-import {JetBrains_Mono} from "next/font/google";
+import {Open_Sans} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import PageTransition from "@/components/PageTransition";
 // import StairTransition from "@/components/StairTransition";
 
-const jetbrainsMono = JetBrains_Mono({
+
+const open_sans = Open_Sans({
   subsets: ["latin"], 
-  weight: ["100","200","300","400","500","600","700","800"],
   variable: '--font-jetbrainsMono'
 });
 
@@ -17,12 +17,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={jetbrainsMono.variable}>
-        <Header />
-        {/* <StairTransition /> */}
-        <PageTransition>{children}</PageTransition>
-      </body>
-    </html>
+      <html lang="en">
+        <body className={open_sans.variable}>
+          <Header />
+          {/* <StairTransition /> */}
+          <PageTransition>{children}</PageTransition>
+        </body>
+      </html>
   );
 }

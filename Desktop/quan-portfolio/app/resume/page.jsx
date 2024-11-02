@@ -18,7 +18,7 @@ const about = {
   info: [
     {
       fieldname: "Name",
-      fieldValue: "Decade",
+      fieldValue: "Nguyen Viet Minh Quan",
     },
     {
       fieldname: "Phone",
@@ -41,7 +41,7 @@ const about = {
     //   fieldValue: "NonAvailable",
     // },
     {
-      fieldname: "Lanugages",
+      fieldname: "Languages",
       fieldValue: "Vietnamese, English",
     },
     {
@@ -63,7 +63,7 @@ const experience = {
     //   duration: "2022 - Present",
     // },
     {
-      company: "Saturday solutions",
+      company: "ROAS.vn",
       position: "Front-End Developer intern",
       duration: "Summer 2024",
     },

@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { CiMenuBurger } from "react-icons/ci";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const links = [
   {
@@ -30,20 +31,19 @@ const links = [
 
 const MobileNav = () => {
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger className="flex justify-center items-center">
         <CiMenuBurger className="text-[32px] text-accent" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
-            <h1 className="text-4xl font-semibold">
-                DECADE {" "}
-              <span className="text-accent border-b-2 border-accent">
-                $25[D/C]06$
-              </span>
-            </h1>
+            <h1 className="text-4xl font-semibold">DECADE</h1>
           </Link>
         </div>
         <nav className="flex flex-col justify-center items-center gap-8">
