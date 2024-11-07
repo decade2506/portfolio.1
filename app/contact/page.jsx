@@ -1,3 +1,4 @@
+
 "use client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -19,17 +20,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 876",
+    description: "(+84) 834 237 147",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremai@gmail.com",
+    description: "minhquan10.adv@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    description: "30 Lam Hoang, Vy Da Ward, Hue city, Thua Thien Hue Province",
   },
 ];
 
@@ -41,7 +42,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transitio: { delay: 2.4, duration: 0.4, ease: "easIn" },
+        transition: { delay: 1.1, duration: 0.5, ease: "easeIn" },
       }}
       className="py-6"
     >
@@ -51,8 +52,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi, assumenda? Eum mollitia consectetur illo.
+                Leave your info here if you wants but I wants to collaborate with a newbie
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="firstname" placeholder="Firstname" />
@@ -60,7 +60,7 @@ const Contact = () => {
                 <Input type="email" placeholder="Email address" />
                 <Input type="phone" placeholder="Phone number" />
               </div>
-              <Select>
+              {/* <Select>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
@@ -72,9 +72,9 @@ const Contact = () => {
                     <SelectItem value="mst">Logo Design</SelectItem>
                   </SelectGroup>
                 </SelectContent>
-              </Select>
+              </Select> */}
               <Textarea
-                className="h-[200px]"
+                className="h-[300px]"
                 placeholder="Type your message here."
               />
               <Button size="md" className="max-w-50">
