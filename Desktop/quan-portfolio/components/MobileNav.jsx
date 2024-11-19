@@ -4,7 +4,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { CiMenuBurger } from "react-icons/ci";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
+import LangChange from "./LangChange";
 
 const links = [
   {
@@ -32,6 +33,7 @@ const links = [
 const MobileNav = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
   useEffect(() => {
     setIsOpen(false);
   }, [pathname]);
@@ -62,6 +64,9 @@ const MobileNav = () => {
             );
           })}
         </nav>
+        <div className="flex justify-center items-center mt-4">
+          <LangChange />
+        </div>
       </SheetContent>
     </Sheet>
   );
