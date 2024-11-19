@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "home",
+    "resume": "resume",
+    "contact": "contact",
+    "hire": "Hire me"
+  },
+  "header": {
+    "hireMe": "Hire me"
+  },
+  "home": {
+    "developer": "Developer",
+    "hello": "Hello, I am",
+    "name": "Minh Quan",
+    "description": "I not really excel at programming in general as I'm quite new to the field itself, but I'm glad to help",
+    "button": "Good to see you"
+  },
+  "resume": {
+    "tabs": {
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "about": "About me"
+    },
+    "aboutMe": "About me",
+    "aboutDescription": "Here are some informations about me",
+    "fields": {
+      "name": "Name",
+      "myname": "Nguyen Viet Minh Quan",
+      "phone": "Phone",
+      "years": "Years",
+      "experience": "Experience",
+      "nationality": "Nationality",
+      "nationalityValue": "Vietnamese",
+      "languages": "Languages",
+      "languagesValue": "Vietnamese, English",
+      "email": "Email"
+    },
+    "experience": {
+      "title": "My experience",
+      "description": "The non-existant experience",
+      "positions": {
+        "intern": "Front-End Developer intern",
+        "duration": "Summer 2024",
+        "company": "ROAS.vn"
+      }
+    },
+    "education": {
+      "title": "My education",
+      "description": "I am currently studying at Hue University of Science and am glad to collaborate.",
+      "duration": "current",
+      "institution": "Hue University of Science",
+      "degree": "High School Certificate of Merit",
+      "institution2": "Hue University of Science",
+      "degree2": "1st year student",
+      "degree3": "Google Cybersecurity certificate",
+      "degree4": "Google UX Design certificate"
+    },
+    "skills": {
+      "title": "My skills",
+      "description": "The skills I knew, though I didn't master them all"
+    }
+  },
+  "contact": {
+    "workTogether": "Let's work together",
+    "contactInfo": "Leave your info here if you wants but I wants to collaborate with a newbie",
+    "form": {
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "email": "Email address",
+      "phone": "Phone number",
+      "message": "Type your message here.",
+      "send": "Send message"
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "addressValue": "30 Lam Hoang, Vy Da Ward, Hue city, Thua Thien Hue Province"
+    }
+  }
+} 

@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import PageTransition from "@/components/PageTransition";
 // import StairTransition from "@/components/StairTransition";
+import { TranslationProvider } from '@/context/TranslationContext';
 
 
 const open_sans = Open_Sans({
@@ -19,9 +20,11 @@ export default function RootLayout({ children }) {
   return (
       <html lang="en">
         <body className={open_sans.variable}>
-          <Header />
-          {/* <StairTransition /> */}
-          <PageTransition>{children}</PageTransition>
+          <TranslationProvider>
+            <Header />
+            {/* <StairTransition /> */}
+            <PageTransition>{children}</PageTransition>
+          </TranslationProvider>
         </body>
       </html>
   );

@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "trang chủ",
+    "resume": "hồ sơ",
+    "contact": "liên hệ",
+    "hire": "Tuyển dụng"
+  },
+  "header": {
+    "hireMe": "Tuyển dụng tôi"
+  },
+  "home": {
+    "developer": "Lập Trình Viên",
+    "hello": "Xin chào, tôi là",
+    "name": "Minh Quân",
+    "description": "Tôi không thực sự giỏi lập trình nói chung vì tôi khá mới trong lĩnh vực này, nhưng tôi rất vui được giúp đỡ",
+    "button": "Rất vui được gặp bạn"
+  },
+  "resume": {
+    "tabs": {
+      "experience": "Kinh Nghiệm",
+      "education": "Học Vấn",
+      "skills": "Kỹ Năng",
+      "about": "Về Tôi"
+    },
+    "aboutMe": "Về tôi",
+    "aboutDescription": "Đây là một số thông tin về tôi",
+    "fields": {
+      "name": "Tên",
+      "myname": "Nguyễn Viết Minh Quân",
+      "phone": "Điện thoại",
+      "years": "Năm",
+      "experience": "Kinh nghiệm",
+      "nationality": "Quốc tịch",
+      "nationalityValue": "Việt Nam",
+      "languages": "Ngôn ngữ",
+      "languagesValue": "Tiếng Việt, Tiếng Anh",
+      "email": "Email"
+    },
+    "experience": {
+      "title": "Kinh nghiệm của tôi",
+      "description": "Kinh nghiệm không tồn tại",
+      "positions": {
+        "intern": "Thực tập sinh Front-End",
+        "duration": "Hè 2024",
+        "company": "ROAS.vn"
+      }
+    },
+    "education": {
+      "title": "Học vấn của tôi",
+      "description": "Tôi hiện đang học tại Đại học Khoa học Huế và rất vui được hợp tác.",
+      "duration": "hiện tại",
+      "institution": "Trường Đại học Khoa học Huế",
+      "degree": "Bằng cấp THPT",
+      "institution2": "Đại Học Khoa Học Huế",
+      "degree2": "Sinh viên năm 1",
+      "degree3": "Chứng chỉ Google Cybersecurity",
+      "degree4": "Chứng chỉ Google UX Design"
+    },
+    "skills": {
+      "title": "Kỹ năng của tôi",
+      "description": "Những kỹ năng tôi biết, mặc dù tôi chưa thành thạo tất cả"
+    }
+  },
+  "contact": {
+    "workTogether": "Hãy làm việc cùng nhau",
+    "contactInfo": "Để lại thông tin của bạn nếu muốn nhưng tôi muốn hợp tác với một người mới",
+    "form": {
+      "firstname": "Tên",
+      "lastname": "Họ",
+      "email": "Địa chỉ email",
+      "phone": "Số điện thoại",
+      "message": "Nhập tin nhắn của bạn tại đây.",
+      "send": "Gửi tin nhắn"
+    },
+    "info": {
+      "phone": "Điện thoại",
+      "email": "Email",
+      "address": "Địa chỉ",
+      "addressValue": "30 Lâm Hoằng, Phường Vĩnh Dạ, Thành phố Huế, Tỉnh Thừa Thiên Huế"
+    }
+  }
+} 

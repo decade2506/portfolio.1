@@ -1,0 +1,68 @@
+export const translations = {
+  en: {
+    nav: {
+      home: "home",
+      resume: "resume",
+      contact: "contact",
+    },
+    home: {
+      developer: "Developer",
+      hello: "Hello, I am",
+      description: "I not really excel at programming in general as I'm quite new to the field itself, but I'm glad to help",
+      button: "Good to see you",
+    },
+    resume: {
+      aboutMe: "About me",
+      aboutDescription: "Here are some informations about me",
+      experience: "My experience",
+      experienceDescription: "The non-existant experience",
+      education: "My education",
+      educationDescription: "I am currently studying at Hue University of Science and am glad to collaborate.",
+      skills: "My skills",
+      skillsDescription: "The skills I knew, though I didn't master them all",
+    },
+    contact: {
+      workTogether: "Let's work together",
+      contactInfo: "Leave your info here if you wants but I wants to collaborate with a newbie",
+      firstname: "Firstname",
+      lastname: "Lastname",
+      email: "Email address",
+      phone: "Phone number",
+      message: "Type your message here.",
+      send: "Send message",
+    },
+  },
+  vi: {
+    nav: {
+      home: "trang chủ",
+      resume: "hồ sơ",
+      contact: "liên hệ",
+    },
+    home: {
+      developer: "Lập Trình Viên",
+      hello: "Xin chào, tôi là",
+      description: "Tôi không thực sự giỏi lập trình nói chung vì tôi khá mới trong lĩnh vực này, nhưng tôi rất vui được giúp đỡ",
+      button: "Rất vui được gặp bạn",
+    },
+    resume: {
+      aboutMe: "Về tôi",
+      aboutDescription: "Đây là một số thông tin về tôi",
+      experience: "Kinh nghiệm của tôi",
+      experienceDescription: "Kinh nghiệm không tồn tại",
+      education: "Học vấn của tôi",
+      educationDescription: "Tôi hiện đang học tại Đại học Khoa học Huế và rất vui được hợp tác.",
+      skills: "Kỹ năng của tôi",
+      skillsDescription: "Những kỹ năng tôi biết, mặc dù tôi chưa thành thạo tất cả",
+    },
+    contact: {
+      workTogether: "Hãy làm việc cùng nhau",
+      contactInfo: "Để lại thông tin của bạn nếu muốn nhưng tôi muốn hợp tác với một người mới",
+      firstname: "Tên",
+      lastname: "Họ",
+      email: "Địa chỉ email",
+      phone: "Số điện thoại",
+      message: "Nhập tin nhắn của bạn tại đây.",
+      send: "Gửi tin nhắn",
+    },
+  },
+}; 

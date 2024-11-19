@@ -2,24 +2,17 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslation } from "@/context/TranslationContext";
 
 const links = [
   {
     name: "home",
     path: "/",
   },
-  // {
-  //     name: "services",
-  //     path: "/services"
-  // },
   {
     name: "resume",
     path: "/resume",
   },
-  // {
-  //   name: "work",
-  //   path: "/work",
-  // },
   {
     name: "contact",
     path: "/contact",
@@ -28,7 +21,8 @@ const links = [
 
 const Nav = () => {
   const pathname = usePathname();
-  console.log(pathname);
+  const { t } = useTranslation();
+
   return (
     <nav className="flex gap-8">
       {links.map((link, index) => {
@@ -37,10 +31,10 @@ const Nav = () => {
             href={link.path}
             key={index}
             className={`${
-              link.path == pathname && "text-accent border-b-2 border-accent"
+              link.path === pathname && "text-accent border-b-2 border-accent"
             } capitalize font-medium hover:text-accent transition-all`}
           >
-            {link.name}
+            {t(`nav.${link.name}`)}
           </Link>
         );
       })}

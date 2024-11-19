@@ -6,9 +6,12 @@ import { Button } from "./ui/button";
 //components
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
+import LangChange from "./LangChange";
+import { useTranslation } from "@/context/TranslationContext";
 
 
 const Header = () => {
+  const { t } = useTranslation();
   return (
     <header className="py-8 xl:py-12 text-white">
       <div className="container mx-auto flex justify-between items-center">
@@ -18,11 +21,11 @@ const Header = () => {
         </Link>
         {/* dektop nav & hidden button */}
         <div className="hidden xl:flex items-center gap-8">
-
           <Nav />
           <Link href="/contact">
-            <Button>Hire me</Button>
+            <Button>{t('header.hireMe')}</Button>
           </Link>
+          <LangChange />
         </div>
 
         {/* Mobile nav*/}
